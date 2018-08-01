@@ -11,6 +11,7 @@
 
 #include "wx/wx.h"
 extern wxSize G_FRAME_SIZE;
+
 class TreasureFrame : public wxFrame
 {
 public:

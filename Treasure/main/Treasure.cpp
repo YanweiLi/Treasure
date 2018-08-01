@@ -12,7 +12,11 @@
 wxSize G_FRAME_SIZE = wxSize(1000 , 500);
 
 TreasureFrame::TreasureFrame(const wxString& title)
-: wxFrame(NULL, wxID_ANY, title, wxDefaultPosition,G_FRAME_SIZE)
+: wxFrame(NULL
+          , wxID_ANY
+          , title
+          , wxDefaultPosition
+          , G_FRAME_SIZE)
 {
     Centre();
 }

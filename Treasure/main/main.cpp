@@ -8,8 +8,9 @@
 
 #include <wx/wx.h>
 #include "Treasure.h"
+#include "mars/app/app.h"
 
-class MyApp : public wxApp
+class TreasureApp : public wxApp
 {
 public:
     bool OnInit()
@@ -20,4 +21,4 @@ public:
     }
 };
 
-wxIMPLEMENT_APP(MyApp);
+wxIMPLEMENT_APP(TreasureApp);

@@ -50,6 +50,7 @@
 		D79D4DD721119D5400C254D0 /* libwx_osx_cocoau_ribbon.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = D79D4DA4211197BD00C254D0 /* libwx_osx_cocoau_ribbon.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		D79D4DD821119D5400C254D0 /* libwx_osx_cocoau_stc.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = D79D4DA0211197BD00C254D0 /* libwx_osx_cocoau_stc.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		D79D4DD921119D5400C254D0 /* libwx_osx_cocoau_xrc.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = D79D4D9D211197BD00C254D0 /* libwx_osx_cocoau_xrc.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		D79D4DF32111C6AF00C254D0 /* mars.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D79D4DF22111C6AE00C254D0 /* mars.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -112,6 +113,7 @@
 		D79D4DC521119C8400C254D0 /* Treasure.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Treasure.h; sourceTree = "<group>"; };
 		D79D4DC621119C8400C254D0 /* Treasure.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Treasure.cpp; sourceTree = "<group>"; };
 		D79D4DC821119CA900C254D0 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		D79D4DF22111C6AE00C254D0 /* mars.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = mars.framework; path = ../../Release/mars.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +121,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D79D4DF32111C6AF00C254D0 /* mars.framework in Frameworks */,
 				D79D4DAD211197BE00C254D0 /* libwx_baseu_net.dylib in Frameworks */,
 				D79D4DAF211197BE00C254D0 /* libwx_osx_cocoau_propgrid.dylib in Frameworks */,
 				D79D4DB0211197BE00C254D0 /* libwx_osx_cocoa_webview.dylib in Frameworks */,
@@ -189,6 +192,7 @@
 		D79D4D7F211197A000C254D0 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D79D4DF22111C6AE00C254D0 /* mars.framework */,
 				D79D4D97211197BD00C254D0 /* libwx_baseu_net.dylib */,
 				D79D4DA2211197BD00C254D0 /* libwx_baseu_xml.dylib */,
 				D79D4DA3211197BD00C254D0 /* libwx_baseu.dylib */,
@@ -418,11 +422,12 @@
 				ALWAYS_SEARCH_USER_PATHS = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
-				CLANG_CXX_LIBRARY = "libstdc++";
+				CLANG_CXX_LIBRARY = "compiler-default";
 				CODE_SIGN_ENTITLEMENTS = Treasure/Treasure.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = V49Y6Y2SC7;
+				FRAMEWORK_SEARCH_PATHS = "$(WXROOT)/../Release";
 				GCC_PREFIX_HEADER = "$(WXROOT)/include/wx/wxprec.h";
 				GCC_PREPROCESSOR_DEFINITIONS = "$(WX_PREPROCESSOR_DEFINITIONS)";
 				HEADER_SEARCH_PATHS = (
@@ -472,11 +477,12 @@
 				ALWAYS_SEARCH_USER_PATHS = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
-				CLANG_CXX_LIBRARY = "libstdc++";
+				CLANG_CXX_LIBRARY = "compiler-default";
 				CODE_SIGN_ENTITLEMENTS = Treasure/Treasure.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = V49Y6Y2SC7;
+				FRAMEWORK_SEARCH_PATHS = "$(WXROOT)/../Release";
 				GCC_PREFIX_HEADER = "$(WXROOT)/include/wx/wxprec.h";
 				GCC_PREPROCESSOR_DEFINITIONS = "$(WX_PREPROCESSOR_DEFINITIONS)";
 				HEADER_SEARCH_PATHS = (
