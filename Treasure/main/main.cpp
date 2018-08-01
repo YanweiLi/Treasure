@@ -9,22 +9,12 @@
 #include <wx/wx.h>
 #include "Treasure.h"
 
-class Hello : public wxFrame
-{
-public:
-    Hello(const wxString& title)
-    : wxFrame(NULL, wxID_ANY, title, wxDefaultPosition, wxSize(250, 150))
-    {
-        Centre();
-    }
-};
-
 class MyApp : public wxApp
 {
 public:
     bool OnInit()
     {
-        Simple *simple = new Simple(wxT("Hello"));
+        TreasureFrame *simple = new TreasureFrame(wxT("宝藏"));
         simple->Show(true);
         return true;
     }

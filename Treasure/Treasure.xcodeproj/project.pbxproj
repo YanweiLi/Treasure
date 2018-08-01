@@ -150,8 +150,9 @@
 		D79D4D582111970900C254D0 = {
 			isa = PBXGroup;
 			children = (
+				D79D4DDB2111A31200C254D0 /* main */,
 				D79D4D782111973100C254D0 /* config */,
-				D79D4D632111970900C254D0 /* Treasure */,
+				D79D4D632111970900C254D0 /* treasure */,
 				D79D4D622111970900C254D0 /* Products */,
 				D79D4D7F211197A000C254D0 /* Frameworks */,
 			);
@@ -165,16 +166,13 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		D79D4D632111970900C254D0 /* Treasure */ = {
+		D79D4D632111970900C254D0 /* treasure */ = {
 			isa = PBXGroup;
 			children = (
 				D79D4DC32111986300C254D0 /* Info_cocoa.plist */,
 				D79D4D722111970900C254D0 /* Treasure.entitlements */,
-				D79D4DC521119C8400C254D0 /* Treasure.h */,
-				D79D4DC621119C8400C254D0 /* Treasure.cpp */,
-				D79D4DC821119CA900C254D0 /* main.cpp */,
 			);
-			path = Treasure;
+			path = treasure;
 			sourceTree = "<group>";
 		};
 		D79D4D782111973100C254D0 /* config */ = {
@@ -215,6 +213,16 @@
 				D79D4D98211197BD00C254D0 /* libwxzlib.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D79D4DDB2111A31200C254D0 /* main */ = {
+			isa = PBXGroup;
+			children = (
+				D79D4DC521119C8400C254D0 /* Treasure.h */,
+				D79D4DC621119C8400C254D0 /* Treasure.cpp */,
+				D79D4DC821119CA900C254D0 /* main.cpp */,
+			);
+			path = main;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
